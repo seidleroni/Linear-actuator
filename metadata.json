@@ -1,5 +1,5 @@
 {
-  "name": "Copy of Linear Actuator Motion Calculator",
+  "name": "Linear Actuator Motion Calculator",
   "description": "An application to calculate and visualize the motion profile of a linear actuator. It determines the time required to travel a specific distance based on maximum velocity, acceleration, and deceleration parameters, and graphs the position over time.",
   "requestFramePermissions": []
 }

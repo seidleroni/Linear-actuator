@@ -1,7 +1,7 @@
-
 export interface MotionDataPoint {
   time: number;
   position: number;
+  velocity: number;
 }
 
 export interface MotionProfile {
