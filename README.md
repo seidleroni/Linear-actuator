@@ -1,20 +1,39 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Linear Actuator Motion Calculator
 
-# Run and deploy your AI Studio app
+**Visualize trapezoidal and triangular motion profiles in real-time.**
 
-This contains everything you need to run your app locally.
+This application provides an interactive tool to calculate and visualize the motion profile of a linear actuator. You can adjust parameters such as distance, maximum velocity, acceleration, and deceleration to see how they affect the motion profile.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1J9tWufnPABMtkc3_I-7lcUzlFnXg_Auu
+**[Live Application](https://seidleroni.github.io/Linear-actuator/)**
 
-## Run Locally
+## Features
 
-**Prerequisites:**  Node.js
+*   **Real-time Updates:** The motion profile chart updates instantly as you adjust the parameters.
+*   **Trapezoidal and Triangular Profiles:** The calculator automatically determines whether the motion profile is trapezoidal (with a constant velocity phase) or triangular (no constant velocity phase).
+*   **Detailed Results:** The total time for the motion is displayed, and the chart provides a visual representation of the velocity over time.
+*   **Interactive Controls:** Sliders make it easy to experiment with different parameter values.
 
+## Project Structure
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+For a detailed walkthrough of the project structure and the role of each file, please see [PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md).
+
+## Getting Started
+
+To run the application locally:
+
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/seidleroni/Linear-actuator.git
+    ```
+2.  Install the dependencies:
+    ```bash
+    npm install
+    ```
+3.  Start the development server:
+    ```bash
+    npm run dev
+    ```
+
+## Contributing
+
+Contributions are welcome! Please feel free to open an issue or submit a pull request.
