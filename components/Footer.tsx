@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
                 <span>MIT Licensed</span>
                 <span className="mx-2" aria-hidden="true">·</span>
                 <a 
-                    href="https://github.com/your-username/linear-actuator-motion-calculator" 
+                    href="https://github.com/seidleroni/Linear-actuator" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="hover:text-cyan-400 transition-colors"
